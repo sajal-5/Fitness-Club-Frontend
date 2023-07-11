@@ -1,0 +1,12 @@
+{
+    "rewrites": [
+        {
+            "source": "/:path*",
+            "destination": "https://fitness-club-server-o4xz.onrender.com/:path*"
+        },
+        {
+            "source": "/:path*/",
+            "destination": "https://fitness-club-server-o4xz.onrender.com/:path*/"
+        }
+    ]
+}

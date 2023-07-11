@@ -34,8 +34,8 @@ const Carousel = () => {
                                 <div className="row">
                                     <div className="col-lg-6  mx-auto">
                                         <div className="caption-content">
-                                            <span>Welcome to Zogin</span>
-                                            <h2>What hurts today makes you stronger tomorrow</h2>
+                                            <span>Welcome to Club</span>
+                                            <h2>Once you are exercising regularly, the hardest thing is to stop it.</h2>
                                             <NavLink to="/about" className="primary-btn text-decoration-none">DISCOVER MORE</NavLink>
                                         </div>
                                     </div>
@@ -50,8 +50,8 @@ const Carousel = () => {
                                 <div className="row">
                                     <div className="col-lg-6  mx-auto">
                                         <div className="caption-content">
-                                            <span>Welcome to Zogin</span>
-                                            <h2>What hurts today makes you stronger tomorrow</h2>
+                                            <span>Welcome to Club</span>
+                                            <h2>There are two types of pain in this world: pain that hurts you, and pain that changes you.</h2>
                                             <NavLink to="/about" className="primary-btn text-decoration-none">DISCOVER MORE</NavLink>
                                         </div>
                                     </div>

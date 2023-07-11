@@ -27,29 +27,29 @@ const AboutSection = () => {
                             <div className="col-lg-3 col-md-4 col-sm-6">
                                 <div className="services__item">
                                     <img src="img/about/af-1.png" alt="" />
-                                    <h5>Full Rejuvenation</h5>
-                                    <p>Grab the opportunity to deepen your own yoga practice, relax, restore and experience India!</p>
+                                    <h5>Flexibility Amplification</h5>
+                                    <p>Unlock your body's potential with our specialized training programs designed to enhance your flexibility and improve your range of motion.</p>
                                 </div>
                             </div>
                             <div className="col-lg-3 col-md-4 col-sm-6">
                                 <div className="services__item">
                                     <img src="img/about/af-2.png" alt="" />
-                                    <h5>Extention Of Spring</h5>
-                                    <p>Grab the opportunity to deepen your own yoga practice, relax, restore and experience India!</p>
+                                    <h5>Infinite Spring Stretch</h5>
+                                    <p>Experience a never-ending season of vitality and energy as our fitness club helps you extend your endurance and maintain peak performance.</p>
                                 </div>
                             </div>
                             <div className="col-lg-3 col-md-4 col-sm-6">
                                 <div className="services__item">
                                     <img src="img/about/af-3.png" alt="" />
-                                    <h5>Against Aging</h5>
-                                    <p>Grab the opportunity to deepen your own yoga practice, relax, restore and experience India!</p>
+                                    <h5>Youthful Vitality Boost</h5>
+                                    <p>Turn back the clock and defy the aging process with our comprehensive fitness services that promote longevity, strength, and overall well-being.</p>
                                 </div>
                             </div>
                             <div className="col-lg-3 col-md-4 col-sm-6">
                                 <div className="services__item">
                                     <img src="img/about/af-4.png" alt="" />
-                                    <h5>Slim Body</h5>
-                                    <p>Grab the opportunity to deepen your own yoga practice, relax, restore and experience India!</p>
+                                    <h5>Sculpted Transformation</h5>
+                                    <p> Achieve your dream body through our tailored workouts and personalized guidance, sculpting a lean and toned physique which you desire.</p>
                                 </div>
                             </div>
                         </div>
@@ -65,7 +65,7 @@ const AboutSection = () => {
                                 <div className="section-title">
                                     <img src="img/icon.png" alt="" />
                                     <h2>What We Do</h2>
-                                    <p>To be invited to the nearest Cali center and get free physical advice to learn more about the program.</p>
+                                    <p>To be invited to the nearest Fitness center and get free physical advice to learn more about the program.</p>
                                 </div>
                                 <div className="about__bar">
                                     <div className="about__bar__item">
@@ -75,7 +75,7 @@ const AboutSection = () => {
                                         </div>
                                     </div>
                                     <div className="about__bar__item">
-                                        <p>Methabolism</p>
+                                        <p>Metabolism</p>
                                         <div class="progress" style={{ height: "7px" }} >
                                             <div class="progress-bar" role="progressbar" style={{ width: "73%" }} aria-valuenow="73" aria-valuemin="0" aria-valuemax="100"></div>
                                         </div>
@@ -87,7 +87,7 @@ const AboutSection = () => {
                                         </div>
                                     </div>
                                     <div className="about__bar__item">
-                                        <p>Strongness</p>
+                                        <p>Stress Management</p>
                                         <div class="progress" style={{ height: "7px" }} >
                                             <div class="progress-bar" role="progressbar" style={{ width: "86%" }} aria-valuenow="86" aria-valuemin="0" aria-valuemax="100"></div>
                                         </div>

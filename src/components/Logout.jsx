@@ -16,7 +16,7 @@ const Logout = () => {
                 Accept: "application/json",
                 "Content-Type": "application/json"
             },
-            credentials: "include"
+            // credentials: "include"
         }).then((res) => {
             dispatch({ type: "USER", payload: 0 })
             dispatch({ type: "ADMIN", payload: 0 })

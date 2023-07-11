@@ -66,7 +66,7 @@ const CoursePage = () => {
     // Handle successful response
     const data = await res.json();
 
-    if (res.status === 401) {
+    if (res.status === 404) {
       window.alert("Need to login first");
       navigate('/signin');
     }

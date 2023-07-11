@@ -7,7 +7,7 @@ const Contact = () => {
 
   const memberContact = async () => {
     try {
-      const res = await fetch("/about", {
+      const res = await fetch("https://fitness-club-server-o4xz.onrender.com/about", {
         method: "GET",
         headers: {
           Accept: "application/json",
@@ -44,7 +44,7 @@ const Contact = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
 
-    const res = await fetch('/contact', {
+    const res = await fetch('https://fitness-club-server-o4xz.onrender.com/contact', {
       method: "POST",
       headers: {
         "Content-Type": "application/json"

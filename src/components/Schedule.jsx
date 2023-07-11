@@ -9,7 +9,7 @@ const Schedule = () => {
 
   const callAboutPage = async () => {
     try {
-      const res = await fetch("/getdata", {
+      const res = await fetch("https://fitness-club-server-o4xz.onrender.com/getdata", {
         method: "GET",
         headers: {
           "Content-Type": "application/json"
@@ -33,7 +33,7 @@ const Schedule = () => {
       const courseIds = memberData.courses.map((course) => course.classID);
 
       const coursePromises = courseIds.map(async (courseId) => {
-        const res = await fetch("/getClassData", {
+        const res = await fetch("https://fitness-club-server-o4xz.onrender.com/getClassData", {
           method: "POST",
           headers: {
             "Content-Type": "application/json"

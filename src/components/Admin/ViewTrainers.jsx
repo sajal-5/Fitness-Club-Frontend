@@ -13,7 +13,7 @@ const ViewTrainers = () => {
 
     const fetchTrainers = async () => {
         try {
-            const response = await axios.get('/getTrainers');
+            const response = await axios.get('https://fitness-club-server-o4xz.onrender.com/getTrainers');
             setTrainers(response.data);
         } catch (error) {
             console.error('Error fetching trainers:', error);

@@ -7,7 +7,7 @@ const Classes = () => {
 
   const callClassesPage = async () => {
     try {
-      const res = await fetch("/getClasses", {
+      const res = await fetch("https://fitness-club-server-o4xz.onrender.com/getClasses", {
         method: "GET",
         headers: {
           "Content-Type": "application/json"

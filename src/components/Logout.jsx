@@ -10,7 +10,7 @@ const Logout = () => {
     const navigate = useNavigate();
     //promises
     useEffect(() => {
-        fetch('/logout', {
+        fetch('https://fitness-club-server-o4xz.onrender.com/logout', {
             method: "GET",
             headers: {
                 Accept: "application/json",

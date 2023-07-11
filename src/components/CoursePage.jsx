@@ -10,7 +10,7 @@ const CoursePage = () => {
 
   const fetchCourse = async () => {
     try {
-      const classRes = await fetch('/getClassData', {
+      const classRes = await fetch('https://fitness-club-server-o4xz.onrender.com/getClassData', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
@@ -24,7 +24,7 @@ const CoursePage = () => {
       const classdata = await classRes.json();
       setCourse(classdata);
 
-      const trainerRes = await fetch('/getTrainerData', {
+      const trainerRes = await fetch('https://fitness-club-server-o4xz.onrender.com/getTrainerData', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
@@ -53,7 +53,7 @@ const CoursePage = () => {
   const handleClick = async (e) => {
     const courseID = classID;
 
-    const res = await fetch('/buyCourse', {
+    const res = await fetch('https://fitness-club-server-o4xz.onrender.com/buyCourse', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',

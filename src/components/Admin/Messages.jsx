@@ -12,7 +12,7 @@ const Messages = () => {
 
   const fetchMessages = async () => {
     try {
-      const response = await axios.get('/getmessages');
+      const response = await axios.get('https://fitness-club-server-o4xz.onrender.com/getmessages');
       setMessages(response.data.reverse()); // Reverse the order of messages
     } catch (error) {
       console.error('Error fetching Messages:', error);

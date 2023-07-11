@@ -13,7 +13,7 @@ const Users = () => {
 
     const fetchUsers = async () => {
         try {
-            const response = await axios.get('/getusers');
+            const response = await axios.get('https://fitness-club-server-o4xz.onrender.com/getusers');
             setUsers(response.data);
         } catch (error) {
             console.error('Error fetching users:', error);

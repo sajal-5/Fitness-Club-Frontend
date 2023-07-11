@@ -32,7 +32,7 @@ const Signup = () => {
             password,
             confirmPassword } = formData;
 
-        const res = await fetch('/register', {
+        const res = await fetch('https://fitness-club-server-o4xz.onrender.com/register', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',

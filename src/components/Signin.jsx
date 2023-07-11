@@ -19,7 +19,7 @@ const Login = () => {
         e.preventDefault();
         const { email, password } = formData;
 
-        const res = await fetch('/signin', {
+        const res = await fetch('https://fitness-club-server-o4xz.onrender.com/signin', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',

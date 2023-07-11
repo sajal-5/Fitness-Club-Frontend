@@ -12,7 +12,7 @@ const Trainer = () => {
 
   const callTrainerPage = async () => {
     try {
-      const res = await fetch("/getTrainers", {
+      const res = await fetch("https://fitness-club-server-o4xz.onrender.com/getTrainers", {
         method: "GET",
         headers: {
           "Content-Type": "application/json"

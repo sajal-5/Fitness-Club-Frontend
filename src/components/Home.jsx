@@ -8,7 +8,7 @@ const Home = () => {
 
   const homePage = async () => {
     try {
-      const res = await fetch("/about", {
+      const res = await fetch("https://fitness-club-server-o4xz.onrender.com/about", {
         method: "GET",
         headers: {
           Accept: "application/json",

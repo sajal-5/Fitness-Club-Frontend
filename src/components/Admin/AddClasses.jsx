@@ -31,7 +31,7 @@ const AddClasses = () => {
 
     const { title, days, timing, instructorEmail, image,description } = formData;
 
-    const res = await fetch('/addclasses', {
+    const res = await fetch('https://fitness-club-server-o4xz.onrender.com/addclasses', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
